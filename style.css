@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Karla", sans-serif;
 }
 
 /*  ============= header ============= */
@@ -47,10 +48,66 @@ header ul li a {
   align-items: center;
   justify-content: center;
 }
+.banner-content {
+  padding: 0 10%;
+}
 .title {
   color: white;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
+}
+
+/* ============= Our Room ============= */
+.our-room {
+  padding: 10%;
+  background: #f5f4f0;
+}
+
+.title-section {
+  text-align: center;
+}
+
+.card-wrapper {
+  display: flex;
+  padding-top: 26px;
+  justify-content: space-between;
+}
+
+.card {
+  width: 28%;
+  padding: 5px;
+  transition: 0.3s;
+}
+.card:hover {
+  background: white;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h5 {
+  text-align: center;
+}
+.card h5 a {
+  color: #b49f6b;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.card p {
+  font-size: 10px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* 1 ~ 420 px */
+@media (max-width: 420px) {
+  /* .title {
+    color: red;
+    font-size: 12px;
+  } */
 }
